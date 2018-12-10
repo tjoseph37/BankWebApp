@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+@{
+    ViewData["Title"] = "Contact";
+}
+
+<head>
+    <style>
+        #body {
+            background-color: blanchedalmond;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h2>Contact Us</h2>
+    <p>Please submit any questions or concerns to the admin below:</p>
+    <form>
+        Email : <input type="email" name="user@email.com" />
+        <br />
+        Subject : <input type="text" name="" />
+        <br />
+        <br />
+        <br />
+        <textarea rows="5" cols="50" name="Questions or concerns">
+        Enter any questions or concerns here.
+        </textarea>
+        <br />
+        <br />
+        <button type="submit" onclick="sendEmail()">Submit</button>
+        <script>
+            function sendEmail() {
+
+            }
+        </script>
+    </form>
+</body>
+</html>
